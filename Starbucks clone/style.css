@@ -18,6 +18,7 @@ section
     align-items: center;
     background: #fff;
 }
+
 header 
 {
     position: absolute;
@@ -29,20 +30,24 @@ header
     justify-content: space-between;
     align-items: center;
 }
+
 header .logo
 {
     position: relative;
     max-width: 80px;
 }
+
 header ul
 {
     position: relative;
     display: flex;
 }
+
 header ul li
 {
     list-style: none;
 }
+
 header ul li a
 {
     display: inline-block;
@@ -50,4 +55,18 @@ header ul li a
     font-weight: 400;
     margin-left: 60px;
     text-decoration: none;
+}
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox
+{
+    
 }
